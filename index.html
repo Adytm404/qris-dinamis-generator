@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>QRIS Dynamic Generator</title>
+
+    <!-- Meta SEO -->
+    <meta name="description" content="QRIS Dynamic Generator adalah alat untuk mengonversi QRIS statis menjadi QRIS dinamis dengan nominal dan biaya layanan tambahan. Cocok untuk kebutuhan bisnis dan pembayaran cepat.">
+    <meta name="keywords" content="QRIS, QRIS Dinamis, QRIS Generator, QR Code, QRIS Statis ke Dinamis, Pembayaran QRIS, QRIS Indonesia, Dynamic QR Generator, jsQR, qrcode-generator">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Library to read QR codes from images -->
+    <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.min.js"></script>
+
+    <!-- Library to generate QR codes -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+
+    <!-- Import maps for React -->
+    <script type="importmap">
+    {
+      "imports": {
+        "react/": "https://esm.sh/react@^19.1.0/",
+        "react": "https://esm.sh/react@^19.1.0",
+        "react-dom/": "https://esm.sh/react-dom@^19.1.0/"
+      }
+    }
+    </script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-zinc-100">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

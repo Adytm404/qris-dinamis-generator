@@ -1,0 +1,5 @@
+{
+  "name": "Qris Payment App",
+  "description": "An application to generate a dynamic QRIS payment code and display it in a payment confirmation screen.",
+  "requestFramePermissions": []
+}
